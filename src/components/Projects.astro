@@ -1,0 +1,58 @@
+---
+import json from "../assets/dataProjects.json";
+---
+
+
+  
+
+<div class="d-flex flex-row gap-3 flex-wrap">
+  {json.map(project => (
+  <div class="card shadow-lg rounded-3" style="width: 18rem;">
+    <div class="ratio ratio-1x1">
+      <img
+        src=`${project.image}`
+        class="card-img-top rounded-3"
+        alt="Living Room Image"
+        style="object-fit: fill;"
+      />
+    </div>
+    <div class="card-body">
+      <span
+        class="badge rounded-pill fw-normal text-success-emphasis bg-success-subtle border border-success-subtle fs-6"
+        >Tailwind</span
+      >
+      <span
+        class="badge rounded-pill fw-normal text-success-emphasis bg-success-subtle border border-success-subtle fs-6"
+        >Astro</span
+      >
+      <h6 class="p-0card-title text-capitalize fw-bold">{project.title}</h6>
+      <p class="p-0 card-text mb-5">{project.desc}</p>
+      <a
+        href=`${project.link}`
+        class="p-0 fw-bold text-decoration-none position-absolute bottom-0" target="_blank"
+        >Link to project <i class="fa-solid fa-arrow-right p-0 m-0"></i></a
+      >
+    </div>
+  </div>
+  ))}
+</div>
+
+
+<!-- Interior
+      Top 5 Living Room Inspirations
+      Curated vibrants colors for your living, make it pop & calm in the same time.
+      Read more -->
+
+<!-- Attribute this challenge to yourself! -->
+<div class="credits" data-gfe-screenshot-exclude="true">
+  The Owner
+  <a
+    href="https://www.greatfrontend.com/projects?ref=challenges"
+    target="_blank">Zaky</a
+  >. Built by
+  <a
+    href="https://www.greatfrontend.com/projects/u/Gunasekaran-Dev"
+    target="_blank">zesciati</a
+  >.
+</div>
+<!-- <script src="js/index.js"></script> -->
