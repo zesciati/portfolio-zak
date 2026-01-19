@@ -46,61 +46,71 @@
       "title": "Intro component with sign-up form",
       "desc": "Intro component with sign-up form",
       "link": "https://intro-component-with-sign-up-form-7h1.pages.dev/",
-      "image":"/images/intro-component-with-sign-up.webp"
+      "image":"/images/intro-component-with-sign-up.webp",
+      "techtagg":["html", "css"]
     },
     {
       "title": "landing-page-TOP",
       "desc": "landing-page-TOP",
       "link": "https://landing-page-top.pages.dev/",
-      "image":"/images/landing-page-top.webp"
+      "image":"/images/landing-page-top.webp",
+      "techtagg":["html", "css" ,"js"]
     },
     {
       "title": "clipboard-landing-page-master",
       "desc": "clipboard-landing-page-master",
       "link": "https://clipboard-landing-page-master-8dw.pages.dev/",
-      "image":"/images/clipboard-landing-page.webp"
+      "image":"/images/clipboard-landing-page.webp",
+      "techtagg":["html", "tailwind"]
     },
     {
       "title": "javascript-drum-kit-wesbos",
       "desc": "javascript-drum-kit-wesbos",
       "link": "https://javascript-drum-kit-wesbos.pages.dev/",
-      "image":"/images/javascript-drum-kit.webp"
+      "image":"/images/javascript-drum-kit.webp",
+      "techtagg":["html", "css" ,"js"]
     },
     {
       "title": "css-variables-wesbos",
       "desc": "css-variables-wesbos",
       "link": "https://css-variables-wesbos.pages.dev/",
-      "image":"/images/css-variables.jpeg"
+      "image":"/images/css-variables.jpeg",
+      "techtagg":["html", "css" ,"js"]
     },
     {
       "title": "Advice-generator-app-main",
       "desc": "A simple web app that generates random advice using a public API. Click the button to instantly receive a new piece of advice.",
       "link": "https://advice-generator-app-main-6co.pages.dev/",
-      "image":"/images/advice-generator-app.webp"
+      "image":"/images/advice-generator-app.webp",
+      "techtagg":["html", "tailwind"]
     },
     {
       "title": "recipe-page-main-astro",
       "desc": "Simple omelette Recipe with preparation time, ingredients, instructions, and nutrition,",
       "link": "https://recipe-page-main-astro.pages.dev/",
-      "image":"/images/recipe-page-main.webp"
+      "image":"/images/recipe-page-main.webp",
+      "techtagg":["astro", "css"]
     },
     {
       "title": "display-time-astro",
-      "desc": "Showing current time with updated second [html, css, js]",
+      "desc": "Showing current time with updated second",
       "link": "https://display-time-astro.pages.dev/",
-      "image":"/images/display-time-astro.webp"
+      "image":"/images/display-time-astro.webp",
+      "techtagg":["html", "css", "js"]
     },
     {
       "title": "ramadhan-promo",
-      "desc": "Ramadhan card [bootstrap, html]",
+      "desc": "Ramadhan card",
       "link": "https://ramadhan-promo.pages.dev",
-      "image":"/images/ramadhan-promo.webp"
+      "image":"/images/ramadhan-promo.webp",
+      "techtagg":["bootstrap", "html"]
     },
     {
       "title": "Result Summary Component",
-      "desc": "Results summary component [tailwind, astro]",
+      "desc": "Results summary component with reaction, memory, verbal, and visual",
       "link": "https://result-summary-component-astro.pages.dev/",
-      "image":"/images/result-summary-component.webp"
+      "image":"/images/result-summary-component.webp",
+      "techtagg":["tailwind", "astro"]
     },
     {
       "title": "oh-studio",

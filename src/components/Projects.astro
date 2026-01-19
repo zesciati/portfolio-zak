@@ -17,14 +17,12 @@ import json from "../assets/dataProjects.json";
       />
     </div>
     <div class="card-body">
+      {project.techtagg?.map(tag => (
       <span
-        class="badge rounded-pill fw-normal text-success-emphasis bg-success-subtle border border-success-subtle fs-6"
-        >Tailwind</span
+        class="badge rounded-pill fw-normal text-success-emphasis bg-success-subtle border border-success-subtle fs-6 mx-1"
+        >{tag}</span
       >
-      <span
-        class="badge rounded-pill fw-normal text-success-emphasis bg-success-subtle border border-success-subtle fs-6"
-        >Astro</span
-      >
+      ))}
       <h6 class="p-0card-title text-capitalize fw-bold">{project.title}</h6>
       <p class="p-0 card-text mb-5">{project.desc}</p>
       <a
