@@ -36,3 +36,7 @@ All commands are run from the root of the project, from a terminal:
 ## tech
 - astro
 - bootstrap css
+
+## inspiration
+https://maxayalla.myportfolio.com/about
+  

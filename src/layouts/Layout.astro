@@ -1,6 +1,8 @@
 ---
 
+// import './Navbar.astro';
 import '../style/global.css';
+import Navbar from './Navbar.astro';
 
 ---
 
@@ -42,6 +44,8 @@ import '../style/global.css';
     <!-- <link rel="icon" href="img/favicon.ico" sizes="any" /> -->
   </head>
   <body>
+
+    <Navbar/>
     <div class="p-5">
       <slot />
     </div>

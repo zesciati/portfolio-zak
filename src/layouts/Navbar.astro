@@ -1,0 +1,31 @@
+---
+
+---
+
+<nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <a href="#">HOME</a>
+    <a href="#">PROJECTS</a>
+    <a href="#">ABOUT</a>
+  </div>
+
+  <!-- <h2>Animated Sidenav Example Full Width</h2>
+  <p>Click on the element below to open the navigation menu.</p> -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"
+    >&#9776;</span
+  >
+</nav>
+
+
+<script is:inline>
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
