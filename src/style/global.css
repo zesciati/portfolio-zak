@@ -183,6 +183,8 @@ body::before {
     padding: initial;
     display: inline;
     color: inherit;
+    padding-inline: .54rem;
+    font-weight:700 ;
   }
 
   .sidenav .closebtn {
