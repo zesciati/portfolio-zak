@@ -159,6 +159,13 @@ body::before {
 
   nav {
     background-color: #EBEBE8;
+    /* background: red; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 1.4rem;
   }
 
   nav span {
@@ -168,26 +175,36 @@ body::before {
   .sidenav {
     position: static;
     width: auto;
+    /* width: 100%; */
     height: auto;
     transition: none;
-    padding-top: 0;
+    padding-top: 0rem;
+    /* margin-top: 2rem; */
     overflow: visible;
     text-align: initial;
-    background-color: transparent;
+    /* background-color: red; */
+    /* background-color: #EBEBE8; */
     margin-left: var(--space-2xl);
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+
   }
 
   .sidenav a {
     font-size: inherit;
     padding: initial;
-    display: inline;
+    display: block;
     color: inherit;
     padding-inline: .54rem;
-    font-weight:700 ;
+    font-weight: 700;
+    float: left;
+
   }
 
   .sidenav .closebtn {
     display: none;
+  }
+
+  .project {
+    margin-top: 2rem;
   }
 }
