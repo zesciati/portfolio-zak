@@ -205,6 +205,15 @@ body::before {
   }
 
   .project {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    gap: 2;
+  }
+  
+  .project .card{
+    transition: scale .43s;
+  }
+
+  .project .card:hover{
+    scale: 1.02;
   }
 }
