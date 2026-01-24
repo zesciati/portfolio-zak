@@ -144,6 +144,12 @@ body::before {
   margin-left: 50px;
 }
 
+/* about.astro */
+
+.images-about{
+  width: 100%;
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -198,6 +204,10 @@ body::before {
     font-weight: 700;
     float: left;
 
+  }
+
+  .sidenav a:hover{
+    text-decoration: line-through;
   }
 
   .sidenav .closebtn {
