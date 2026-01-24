@@ -56,6 +56,7 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   min-height: 100vh;
+  /* padding: 0; */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -146,9 +147,16 @@ body::before {
 
 /* about.astro */
 
+.article-about{
+  /* padding: 50px; */
+  /* background-color: red; */
+  margin-top: 4rem;
+}
+
 .images-about{
   width: 100%;
 }
+
 
 
 @media screen and (max-height: 450px) {
@@ -215,7 +223,7 @@ body::before {
   }
 
   .project {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   
   .project .card{

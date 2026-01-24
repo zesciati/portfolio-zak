@@ -40,3 +40,10 @@ All commands are run from the root of the project, from a terminal:
 ## inspiration
 https://maxayalla.myportfolio.com/about
   
+
+## Reminder
+1. Layout.astro
+  ```html
+    <div class={noPadding ? "": "p-3"}>
+  ```
+  Mematikan padding pada about.astro 
