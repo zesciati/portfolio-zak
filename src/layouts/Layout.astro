@@ -1,9 +1,7 @@
 ---
-
 // import './Navbar.astro';
-import '../style/global.css';
-import Navbar from './Navbar.astro';
-
+import "../style/global.css";
+import Navbar from "./Navbar.astro";
 ---
 
 <!doctype html>
@@ -12,6 +10,9 @@ import Navbar from './Navbar.astro';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio Zesciati</title>
+    <!-- <link rel="icon" type="../assets/usb.svg" href =""> -->
+    <link rel="icon" type="image/svg+xml" href="/professional-portfolio.svg" /> <!-- title icon --->
+    <link rel="icon" type="image/png" href="/professional-portfolio.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,11 +45,9 @@ import Navbar from './Navbar.astro';
     <!-- <link rel="icon" href="img/favicon.ico" sizes="any" /> -->
   </head>
   <body>
-
-    <Navbar/>
+    <Navbar />
     <div class="p-5">
       <slot />
     </div>
   </body>
 </html>
-

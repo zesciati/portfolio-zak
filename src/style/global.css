@@ -206,7 +206,6 @@ body::before {
 
   .project {
     margin-top: 3rem;
-    gap: 2;
   }
   
   .project .card{
