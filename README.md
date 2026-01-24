@@ -47,3 +47,6 @@ https://maxayalla.myportfolio.com/about
     <div class={noPadding ? "": "p-3"}>
   ```
   Mematikan padding pada about.astro 
+
+2. about.astro
+   1. Content tidak di bikin komponent based jadi hanya digabungkan semua jadi satu

@@ -120,6 +120,7 @@ body::before {
   transition: 0.5s;
   padding-top: 60px;
   text-align: center;
+
 }
 
 .sidenav a {
@@ -145,16 +146,32 @@ body::before {
   margin-left: 50px;
 }
 
+.burger-icon{
+  margin-left: var(--space-s);
+  /* padding-top: 122rem; */
+  /* position: absolute;
+  top: 0;
+  left: 25px; */
+}
+
 /* about.astro */
 
-.article-about{
+.article-about {
   /* padding: 50px; */
   /* background-color: red; */
   margin-top: 4rem;
 }
 
-.images-about{
+.images-about {
   width: 100%;
+}
+
+.description {
+  margin-inline: var(--space-s-m);
+  /* color: red; */
+  text-align: center;
+  font-size: var(--step--1);
+  margin-top: var(--space-m);
 }
 
 
@@ -214,7 +231,7 @@ body::before {
 
   }
 
-  .sidenav a:hover{
+  .sidenav a:hover {
     text-decoration: line-through;
   }
 
@@ -222,15 +239,29 @@ body::before {
     display: none;
   }
 
+
+  /* Project */
   .project {
     margin-top: 5rem;
   }
-  
-  .project .card{
+
+  .project .card {
     transition: scale .43s;
   }
 
-  .project .card:hover{
+  .project .card:hover {
     scale: 1.02;
   }
+
+  /* about */
+
+  .images-about {
+    /* width: 100%; */
+    padding-inline: var(--space-2xl);
+    /* height: 40%; */
+    /* max-width: 100%; */
+  }
+
+
+
 }

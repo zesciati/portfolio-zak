@@ -4,17 +4,21 @@
 ✔ perbaikan design side navbar @done(26-01-21 20:09)
 ✔ matikan sidenavbar pada ukuran 1024px @done(26-01-21 20:21)
 ✔ mendesign navbar desktop (inspirasi https://maxayalla.myportfolio.com/projects) @done(26-01-23 17:51)
-✔ pasang posisi fixed untuk sidenav & navbar @done(26-01-23 18:21)
+✔ pasang posisi fixed untuk navbar @done(26-01-23 18:21)
+  ☐ posisi fixed untuk sidenav 
 ✔ berikan background color kepada navbar @done(26-01-23 18:21)
 ✔ Saat di hover akan membesar card project @done(26-01-23 19:04)
   ✔ transition scale & sec @done(26-01-23 18:48)
   ✔ scale @done(26-01-23 18:48)
 ✔ pasang link navbar about.astro @done(26-01-24 20:53)
 ✔ pasang link index(projek) about.astro @done(26-01-24 20:53)
-☐ matikan padding di about.astro
+✔ matikan padding di about.astro dengan noPadding @done(26-01-24 23:37)
 ☐ About 
-  ☐ penjelasan diriku
-  ☐ gambar
+  ✔ penjelasan diriku (masih nyontek) @done(26-01-25 01:00)
+    ☐ tampilan desc harus mirip seperti 768px
+  ✔ gambar @done(26-01-25 00:09)
+    ✔ desain gambar di atas desktop @done(26-01-25 00:59)
 ☐ link navbar aktif sesuai user nya di page
+☐ desain navbar android
 ✔ icon browser tab (professional-portfolio) @done(26-01-24 17:16)
 - font yang lebih bagus
