@@ -291,3 +291,18 @@ body::before {
   /* text-align: center; */
 }
 }
+
+@media screen and (min-width: 1445px) {
+  .images-about{
+    padding-inline: 62rem;
+  }
+  .description{
+  padding-inline: 8rem;
+  /* text-align: center; */
+  font-size: var(--step-2);
+}
+
+  .sidenav{
+    font-size: var(--step-0);
+  }
+}
